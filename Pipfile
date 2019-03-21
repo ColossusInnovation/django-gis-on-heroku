@@ -18,6 +18,7 @@ waitress = "==1.2.1"
 hiredis = "==1.0.0"
 django-redis-cache = "==2.0.0"
 Django = "==2.1.7"
+unittest-xml-reporting = "==2.4.0"
 
 [requires]
 python_version = "3.7"

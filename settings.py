@@ -141,3 +141,6 @@ CELERY_TIMEZONE = TIME_ZONE
 GDAL_LIBRARY_PATH = os.getenv('GDAL_LIBRARY_PATH')
 GEOS_LIBRARY_PATH = os.getenv('GEOS_LIBRARY_PATH')
 
+TEST_RUNNER = 'xmlrunner.extra.djangotestrunner.XMLTestRunner'
+TEST_OUTPUT_VERBOSE = 2
+TEST_OUTPUT_DIR = 'test-results'

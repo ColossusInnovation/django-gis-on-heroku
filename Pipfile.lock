@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c6f0a7611048b87bd68212a162b3b360e835c6b5a793c613ae86f007efd55f11"
+            "sha256": "b82c6fbf3750db178ddb0c94cbbb045a4616e94d6f3dd6b9bd224a76cf5eaf59"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -22,6 +22,14 @@
                 "sha256:35a3b5006ca00b21aaeec8ceea07130f07b902dd61bfe42815039835f962f5f1"
             ],
             "version": "==2.4.2"
+        },
+        "appnope": {
+            "hashes": [
+                "sha256:5b26757dc6f79a3b7dc9fab95359328d5747fcb2409d331ea66d0272b90ab2a0",
+                "sha256:8b995ffe925347a2138d7ac0fe77155e4311a0ea6d6da4f5128fe4b3cbe5ed71"
+            ],
+            "markers": "sys_platform == 'darwin'",
+            "version": "==0.1.0"
         },
         "backcall": {
             "hashes": [
@@ -46,10 +54,10 @@
         },
         "decorator": {
             "hashes": [
-                "sha256:33cd704aea07b4c28b3eb2c97d288a06918275dac0ecebdaf1bc8a48d98adb9e",
-                "sha256:cabb249f4710888a2fc0e13e9a16c343d932033718ff62e1e9bc93a9d3a9122b"
+                "sha256:86156361c50488b84a3f148056ea716ca587df2f0de1d34750d35c21312725de",
+                "sha256:f069f3a01830ca754ba5258fde2278454a0b5b79e0d7f5c13b3b97e57d4acff6"
             ],
-            "version": "==4.3.2"
+            "version": "==4.4.0"
         },
         "dj-database-url": {
             "hashes": [
@@ -289,10 +297,10 @@
         },
         "redis": {
             "hashes": [
-                "sha256:724932360d48e5407e8f82e405ab3650a36ed02c7e460d1e6fddf0f038422b54",
-                "sha256:9b19425a38fd074eb5795ff2b0d9a55b46a44f91f5347995f27e3ad257a7d775"
+                "sha256:6946b5dca72e86103edc8033019cc3814c031232d339d5f4533b02ea85685175",
+                "sha256:8ca418d2ddca1b1a850afa1680a7d2fd1f3322739271de4b704e0d4668449273"
             ],
-            "version": "==3.2.0"
+            "version": "==3.2.1"
         },
         "six": {
             "hashes": [
@@ -308,12 +316,20 @@
             ],
             "version": "==4.3.2"
         },
+        "unittest-xml-reporting": {
+            "hashes": [
+                "sha256:568be13740085f31a488a38a2f4e68eebe7a19d5979c038da3d98b733ec25d7b",
+                "sha256:a094e0d1151acc2b5b488068e3f1efe148a929b44666d74a7b8de67366f8d4e2"
+            ],
+            "index": "pypi",
+            "version": "==2.4.0"
+        },
         "vine": {
             "hashes": [
-                "sha256:3cd505dcf980223cfaf13423d371f2e7ff99247e38d5985a01ec8264e4f2aca1",
-                "sha256:ee4813e915d0e1a54e5c1963fde0855337f82655678540a6bc5996bca4165f76"
+                "sha256:133ee6d7a9016f177ddeaf191c1f58421a1dcc6ee9a42c58b34bed40e1d2cd87",
+                "sha256:ea4947cc56d1fd6f2095c8d543ee25dad966f78692528e68b4fada11ba3f98af"
             ],
-            "version": "==1.2.0"
+            "version": "==1.3.0"
         },
         "waitress": {
             "hashes": [
