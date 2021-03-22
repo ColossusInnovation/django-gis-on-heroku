@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/django-gis-on-heroku
     docker:
-      - image: circleci/python:3.7.2
+      - image: circleci/python:3.9.2
         environment:
           PIPENV_VENV_IN_PROJECT: true
           DATABASE_URL: postgresql://root@localhost/circle_test?sslmode=disable
