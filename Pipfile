@@ -17,7 +17,7 @@ gevent = "==21.1.2"
 waitress = "==2.0.0"
 hiredis = "==2.0.0"
 django-redis-cache = "==3.0.0"
-Django = "==3.2.5"
+Django = "==3.2.6"
 unittest-xml-reporting = "==3.0.4"
 
 [requires]
