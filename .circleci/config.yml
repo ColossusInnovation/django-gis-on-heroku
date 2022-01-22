@@ -3,19 +3,20 @@ jobs:
   build:
     working_directory: ~/django-gis-on-heroku
     docker:
-      - image: circleci/python:3.9.2
+      - image: circleci/python:3.9.9
         environment:
           PIPENV_VENV_IN_PROJECT: true
           DATABASE_URL: postgresql://root@localhost/circle_test?sslmode=disable
-      - image: circleci/postgres:10.1-postgis
+      - image: circleci/postgres:13.5-postgis
         environment:
           POSTGRES_USER: root
           POSTGRES_DB: template-app_test
+          POSTGRES_HOST_AUTH_METHOD: trust
     steps:
       - checkout
       - run: sudo chown -R circleci:circleci /usr/local/bin
       - run: sudo chown -R circleci:circleci /usr/local/lib/python3.9/site-packages
-      - run: sudo apt-get -y --no-install-recommends --force-yes install libgdal-dev
+      - run: sudo apt-get update && sudo apt-get -y --no-install-recommends --force-yes install libgdal-dev
       - restore_cache:
           key: deps9-{{ .Branch }}-{{ checksum "Pipfile.lock" }}
       - run:
